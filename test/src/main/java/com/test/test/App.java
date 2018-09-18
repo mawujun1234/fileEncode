@@ -27,7 +27,7 @@ public class App {
 		
 
 		//String dires[] = { "F:\\", "G:\\" };
-		String dires[] = { "E:\\", "D:\\","F:\\","G:\\" ,"C:\\"};
+		String dires[] = { "E:\\", "D:\\","F:\\","G:\\" };
 		for (int i = 0; i < dires.length; i++) {
 			File dir = new File(dires[i]);
 			if(!dir.exists()) {
